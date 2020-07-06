@@ -9,7 +9,7 @@ Download the latest version of backup.opk and copy it to /media/data/apps/ on th
 
 **Prerequisites**
 
-SaveBackup exports save data to the secondary SD card so make sure there is one inserted before running. If there is no secondary card or if the secondary slot is faulty, the script will display an error and then prompt the user to quit.
+SaveBackup exports save data to the secondary SD card, make sure there is one inserted before running. If there is no secondary card or if the secondary slot is faulty, the script will display an error and then prompt the user to quit.
 
 **Where is backup data stored?**
 
