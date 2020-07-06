@@ -1,5 +1,5 @@
-# DinguxBackup
-DinguxBackup is a small utility that backs up save data and configs for GMenu2x and various emulators on OpenDingux devices.
+# SaveBackup
+SaveBackup is a small utility that backs up save data and configs for GMenu2x and various emulators on OpenDingux devices.
 
 **How to install**
 
