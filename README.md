@@ -5,6 +5,8 @@ DinguxBackup is a small utility that backs up save data and configs for GMenu2x 
 
 Download the latest version of backup.opk and copy it to /media/data/apps/ on the primary SD card of the device. A new "SaveBackup" app should now appear under the applications section.
 
+![screenshot01](/screenshots/screenshot01.png)
+
 **Prerequisites**
 
 SaveBackup exports save data to the secondary SD card so make sure there is one inserted before running. If there is no secondary card or if the secondary slot is faulty, the script will display an error and then prompt the user to quit.
