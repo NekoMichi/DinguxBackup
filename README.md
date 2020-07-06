@@ -30,4 +30,4 @@ SaveBackup will only backup data from specific apps and emulators. They are:
 
 **Known issues/quirks**
 - The first time this app is run, it may take longer than usual as it needs to generate the initial backup folder structure and files. Subsequent runs will be much faster as it only backs up files that have changed since the last backup.
-- After running the backup app for the first time, some emulators might take a little longer than usual to start up. This only happens once and should not any save progress.
+- After running the backup app for the first time, some emulators might take a little longer than usual to start up. This only happens once and should not affect any save progress.
