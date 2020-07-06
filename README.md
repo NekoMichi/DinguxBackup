@@ -20,6 +20,7 @@ SaveBackup will create a new folder on the secondary SD card called "backup" and
 SaveBackup will only backup data from specific apps and emulators. They are:
 - GMenu2x settings
 - Screenshots taken by pressing Power and X
+- Custom ScriptRunner scripts
 - FCEUX (NES emulator)
 - Gambatte (GameBoy emulator)
 - ReGBA (GameBoy Advance emulator)
