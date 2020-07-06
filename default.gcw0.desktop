@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=SaveBackup
-Comment=Backs up saves to card-2
-Exec=backup.sh
-Icon=icon
-Terminal=true
-Type=Application
-StartupNotify=true
-Categories=applications;
