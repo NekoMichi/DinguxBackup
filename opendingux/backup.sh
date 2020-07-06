@@ -84,10 +84,15 @@ rsync --update -r /media/data/local/home/.picodrive/ /media/sdcard/backup/picodr
 
 # Backs up PocketSNES data
 if [ ! -d /media/sdcard/backup/snes96_snapshots/ ]; then
-	echo "PocketSNES backup folder doesn't exist, creating folder..."
+	echo "SNES96 backup folder doesn't exist, creating folder..."
 	mkdir /media/sdcard/backup/snes96_snapshots
 fi
+if [ ! -d /media/sdcard/backup/pocketsnes/ ]; then
+	echo "PocketSNES backup folder doesn't exist, creating folder..."
+	mkdir /media/sdcard/backup/pocketsnes
+fi
 echo "Backing up PocketSNES data"
+rsync --update -r /media/data/local/home/.pocketsnes/ /media/sdcard/backup/pocketsnes
 rsync --update -r /media/data/local/home/.snes96_snapshots/ /media/sdcard/backup/snes96_snapshots
 echo ""
 read -p "Backup complete! Press START to exit."
